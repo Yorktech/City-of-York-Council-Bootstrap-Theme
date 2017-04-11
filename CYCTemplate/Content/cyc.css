@@ -1,0 +1,298 @@
+﻿
+@font-face {
+    font-family: coyc-icon;
+    src: url(fonts/coyc-icon.eot?-5kfv18);
+    src: url(fonts/coyc-icon.eot?#iefix-5kfv18) format("embedded-opentype"), url(../fonts/coyc-icon.woff?-5kfv18) format("woff"), url(../fonts/coyc-icon.ttf?-5kfv18) format("truetype"), url(../fonts/coyc-icon.svg?-5kfv18#coyc-icon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=' icon-'],
+[class^=icon-] {
+    font-family: coyc-icon;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    text-transform: none
+}
+
+.social-icons li i {
+    font: normal normal normal 14px/1 FontAwesome;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: auto;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.icon-health-and-social-care:before {
+    content: '\e601'
+}
+
+.icon-environment-and-animals:before,
+.icon-environmental-problems:before {
+    content: '\e600'
+}
+
+.icon-latest-news:before {
+    content: '\e607'
+}
+
+.icon-leisure-and-sport:before,
+.icon-sports-and-leisure:before {
+    content: '\e608'
+}
+
+.icon-street-cleanliness:before {
+    content: '\e609'
+}
+
+.icon-streets--roads-and-pavements:before,
+.icon-streets-and-roads:before,
+.icon-streets-roads-and-pavements:before {
+    content: '\e60a'
+}
+
+.icon-benefits-and-council-tax-support:before,
+.icon-benefits:before,
+.icon-council-tax:before {
+    content: '\e60b'
+}
+
+.icon-birth-marriages-and-deaths:before,
+.icon-births--deaths-and-marriages:before,
+.icon-births-deaths-and-marriages:before {
+    content: '\e60c'
+}
+
+.icon-business:before {
+    content: '\e60d'
+}
+
+.icon-children-and-families:before {
+    content: '\e60e'
+}
+
+.icon-council-and-democracy:before,
+.icon-your-council:before {
+    content: '\e60f'
+}
+
+.icon-crime-and-antisocial-behaviour:before {
+    content: '\e610'
+}
+
+.icon-housing:before {
+    content: '\e612'
+}
+
+.icon-jobs-and-training:before,
+.icon-jobs-and-volunteering:before {
+    content: '\e613'
+}
+
+.icon-leisure-and-culture:before {
+    content: '\e614'
+}
+
+.icon-libraries:before {
+    content: '\e615'
+}
+
+.icon-ict-portal:before,
+.icon-make-a-payment-online:before {
+    content: '\e616'
+}
+
+.icon-make-an-application:before {
+    content: '\e617'
+}
+
+.icon-news-centre:before {
+    content: '\e618'
+}
+
+.icon-parking-and-travel:before,
+.icon-parking-travel-and-roads:before {
+    content: '\e619'
+}
+
+.icon-people-and-communities:before {
+    content: '\e61a'
+}
+
+.icon-planning-and-building:before,
+.icon-planning-and-buildings:before,
+.icon-website:before {
+    content: '\e61b'
+}
+
+.icon-report-something:before {
+    content: '\e61c'
+}
+
+.icon-school-and-learning:before,
+.icon-schools-and-education:before {
+    content: '\e61d'
+}
+
+.icon-waste-and-recycling:before {
+    content: '\e61e'
+}
+
+.icon-coyc-logo-mono:before {
+    content: '\e62c'
+}
+
+.icon-arrow-down:before {
+    content: '\e62d'
+}
+
+.icon-comments:before {
+    content: '\e62e'
+}
+
+.icon-tweet:before {
+    content: '\e62f'
+}
+
+.icon-map:before {
+    content: '\e630'
+}
+
+.icon-news:before {
+    content: '\e631'
+}
+
+.icon-search:before {
+    content: '\e632'
+}
+
+.icon-watch-video:before {
+    content: '\e633'
+}
+
+.buttonsearch {
+    font-size: 35px;
+    font-size: 2.1875rem;
+    content: '\e632';
+    font-family: coyc-icon;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    display: inline-block;
+    height: 52px;
+    -webkit-transition: color .2s ease-out .2s;
+    transition: color .2s ease-out .2s
+}
+
+.cycheader {
+    background: black;
+    padding-bottom: 10px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+}
+
+.logo {
+    display: table-cell;
+    padding: 5px 5px 5px 1em;
+    vertical-align: middle;
+
+}
+
+.logo__link {
+    color: #142f6d;
+    text-decoration: none;
+    display: block;
+}
+
+.icon-coyc-logo-mono:before {
+    content: '\e62c';
+}
+
+ [class*=" icon-"]:before, [class^=icon-]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+}
+.logo__link .logo__image {
+    color: #fff;
+    display: inline-block;
+    font-size: 6em;
+    -webkit-transition: color .2s ease-out .2s;
+    transition: color .2s ease-out .2s;
+}
+[class*=' icon-'], [class^=icon-] {
+    font-family: coyc-icon;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.searchfield {
+    display: block;
+    height: 52px;
+    padding: 10px 10px 10px 10px;
+}
+
+.socialicons {
+    margin-right: 3px;
+    padding-right: 0px;
+    /*/*width: 3em;
+    height: 3em;*/
+
+}
+ .cycsocial {
+     background: black;
+    }
+
+
+    .cycsocial ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+.cycsocial ul li a {
+    color: #ffffff;
+}
+
+.socialicons li {
+        display: block;
+        /*height: 3em;
+        width: 3em;*/
+        margin-right: 3px;
+    box-sizing: border-box;
+    /*background: #ffffff;
+    color: black;*/
+    }
+
+    .socialicons li a {
+       
+        height: 100%;
+        text-decoration: none;
+        padding-right: 5px;
+        padding-left: 0px;
+        display: block;
+       
+    }
+
+   
