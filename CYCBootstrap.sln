@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CYCBootstrap", "CYCBootstrap\CYCBootstrap.csproj", "{C063B40A-8E7B-43EF-AE7A-6EE57B6E0B01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CYCTemplate", "..\Template\CYCTemplate\CYCTemplate.csproj", "{61BCA8F8-8AFA-4F1B-871B-25F1AA1230E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C063B40A-8E7B-43EF-AE7A-6EE57B6E0B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C063B40A-8E7B-43EF-AE7A-6EE57B6E0B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C063B40A-8E7B-43EF-AE7A-6EE57B6E0B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C063B40A-8E7B-43EF-AE7A-6EE57B6E0B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BCA8F8-8AFA-4F1B-871B-25F1AA1230E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BCA8F8-8AFA-4F1B-871B-25F1AA1230E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BCA8F8-8AFA-4F1B-871B-25F1AA1230E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BCA8F8-8AFA-4F1B-871B-25F1AA1230E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
