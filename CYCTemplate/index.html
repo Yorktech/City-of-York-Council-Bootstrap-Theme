@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CYC Template</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <!--<link href="Content/bootstrap-theme.min.css" rel="stylesheet" />-->
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/cyc.css" rel="stylesheet" />
 </head>
@@ -64,7 +64,7 @@
             </div>
         </div>
     </nav>
-    <div class="row">
+    <div id="main" class="row">
         <div class="col-md-12">
             <div class="jumbotron">
                 <h1>Content</h1>
@@ -106,7 +106,7 @@
                 <a href="mailto:ycc@york.gov.uk">ycc@york.gov.uk</a>
             </p>
         </div>
-        <div class="col-md-3 col-md-offset-3">
+        <div class="col-md-3 col-md-offset-3 col-xs-3 col-xs-offset-1">
             <div class="logo">
                 <a class="logo__link2" href="http://www.york.gov.uk/">
                     <span class="logo__image2 icon-coyc-logo-mono">
@@ -114,23 +114,27 @@
                     </span>
                 </a>
             </div>
-            <!--<a  href="https://www.york.gov.uk"></a>
-            <a class="footericon" href="http://www.york.gov.uk/">
-                here <span class="visuallyhidden">City of York Council</span>
-            </a>-->
         </div>
     </div>
   
 </div>
   
 <footer class="footer">
-    <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-9 ">
+                <ul class="list-inline">
+                    <li class=""><a class="pull-right btn btn-lg footer-button" href="http://www.york.gov.uk/site/scripts/feedback.php">FEEDBACK</a></li>
+                    <li class=""><a class="pull-right btn btn-lg footer-button" href="#main"><i class="glyphicon glyphicon-menu-up"></i></a></li>
+                </ul>
+                
+            </div>
+        </div>
     </div>
 </footer>
 
     
-    
+<!--col-sm-4 col-sm-offset-7 col-xs-3 col-xs-offset-7-->
 
 <script src="Scripts/jquery-1.9.1.min.js"></script>
 <script src="Scripts/bootstrap.min.js"></script>
