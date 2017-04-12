@@ -7,6 +7,8 @@
     font-style: normal
 }
 
+
+
 [class*=' icon-'],
 [class^=icon-] {
     font-family: coyc-icon;
@@ -352,4 +354,39 @@
 
 .footer-button a {
     text-decoration: none;
+}
+
+
+@media screen and (max-width:650px) {
+    .logo {
+        max-width: 194px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    [class*=' icon-'],
+    [class^=icon-] {
+        font-weight: 200;
+        font-size: 4em;
+       
+    }
+
+    .footericon {
+        font-weight: 200;
+        font-size: 3em;
+    }
+    .logo__link .logo__image {
+        font-size: 4em;
+    }
+
+    .logo__link2 .logo__image2 {
+        font-size: 4em; 
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .logo__link .logo__image {
+        font-size: 5em;
+    }
 }
