@@ -282,6 +282,8 @@
 }
  .cycsocial {
      background: black;
+     margin-left: 0px;
+     margin-right: 0px;
     }
 
 
@@ -389,4 +391,13 @@
     .logo__link .logo__image {
         font-size: 5em;
     }
+}
+
+.search {
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.searchIcon {
+    color: #ffffff;
 }
