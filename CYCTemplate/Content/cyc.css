@@ -396,8 +396,16 @@
 .search {
     vertical-align: middle;
     display: inline-flex;
+    padding-top: 30px;
 }
 
 .searchIcon {
+    background: #1e367c;
+    border-color: #192d67;
     color: #ffffff;
+}
+
+.search input {
+    height: 44px;
+    padding: 10px;
 }
